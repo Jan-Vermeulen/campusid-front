@@ -1,7 +1,12 @@
 import { SET_LOCALE } from './actions';
 import { SET_BACKGROUND_COLOR } from './actions';
+import { Reducer } from 'react';
+import { Action } from 'redux';
 
-export default function commonReducer(state, action) {
+const commonReducer: Reducer<Record<string, any>, Action<any>> = (
+    state: Record<string, any>,
+    action: Record<string, any>
+) => {
     switch (action.type) {
         case SET_LOCALE:
             return {
@@ -18,4 +23,6 @@ export default function commonReducer(state, action) {
         default:
             return state;
     }
-}
+};
+
+export default commonReducer;

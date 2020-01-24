@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { createStore, compose } from 'redux';
 import commonReducer from './common/state/reducers';
 

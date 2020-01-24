@@ -1,12 +1,12 @@
 import React from 'react';
 
-import ReduxTest from './common/component/Tutorial';
+import ReduxExemple from './common/component/ReduxExemple';
 import './App.css';
 
 const App: React.FC = () => {
     return (
         <div className="App">
-            <ReduxTest />
+            <ReduxExemple />
         </div>
     );
 };
