@@ -5,6 +5,13 @@ export default {
         height: '100%',
     },
     locale: {
-        color: '#FFF',
+        position: 'absolute' as 'absolute',
+        color: '#fff',
+        top: 0,
+        left: '50%',
+        fontSize: 46,
+    },
+    backgroundText: {
+        color: '#fff',
     },
 };
